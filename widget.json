@@ -1,0 +1,27 @@
+{
+  "name": "Icon selector",
+  "package": "com.fliplet.icon-selector",
+  "version": "1.0.0",
+  "icon": "img/icon.png",
+  "tags": [],
+  "provider_only": true,
+  "interface": {
+    "dependencies": [
+      "fliplet-core",
+      "fliplet-studio-ui",
+      "bootstrap",
+      "handlebars",
+      "lodash"
+    ],
+    "assets": [
+      "js/interface.templates.js",
+      "js/font-awesome-icons.js",
+      "js/interface.js",
+      "css/interface.css"
+    ]
+  },
+  "build": {
+    "dependencies": [],
+    "assets": []
+  }
+}
