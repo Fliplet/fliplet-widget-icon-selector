@@ -24,6 +24,12 @@ function attachListeners() {
     .on('click', '.icon-item', function() {
       $('.icon-item').not(this).removeClass('selected');
       $(this).toggleClass('selected');
+    })
+    .on('click', '.clear-search', function() {
+      $('.search-field').val('');
+      $('.search-field').trigger('blur');
+      $('.search-field').parents('.search-holder').removeClass('searching');
+      renderFullList(fontAwesomeIcons);
     });
 }
 
