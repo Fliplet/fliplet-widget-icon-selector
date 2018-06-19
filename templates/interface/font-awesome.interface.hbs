@@ -1,0 +1,17 @@
+{{#each this}}
+<h3>{{@key}}</h3>
+<ul>
+  {{#each this}}
+  <li class="icon-item" data-icon-id="{{id}}">
+    <div class="holder">
+      <div class="icon">
+        <i class="{{id}}"></i>
+      </div>
+      <div class="title">
+        <span>{{name}}</span>
+      </div>
+    </div>
+  </li>
+  {{/each}}
+</ul>
+{{/each}}
