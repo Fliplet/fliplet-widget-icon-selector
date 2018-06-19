@@ -8,6 +8,10 @@ body {
   overflow: hidden;
 }
 
+.widget-holder header {
+  font-size: 0.8em;
+}
+
 .icon-ui-wrapper {
   height: 100%;
 }
