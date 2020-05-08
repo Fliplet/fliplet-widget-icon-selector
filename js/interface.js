@@ -24,7 +24,7 @@ function attachListeners() {
     .on('click', '.icon-item', function() {
       $('.icon-item').not(this).removeClass('selected');
       $(this).toggleClass('selected');
-      Fliplet.Widget.emit('icon-clicked', {isSelected: !!$('.icon-item.selected').data('icon-id')});
+      Fliplet.Widget.emit('icon-clicked', { isSelected: !!$('.icon-item.selected').data('icon-id') });
     })
     .on('click', '.clear-search', function() {
       $('.search-field').val('');
