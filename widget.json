@@ -8,6 +8,7 @@
   "interface": {
     "dependencies": [
       "fliplet-core",
+      "fliplet-utils",
       "fliplet-studio-ui",
       "bootstrap",
       "handlebars",
