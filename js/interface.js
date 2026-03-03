@@ -35,7 +35,7 @@ function attachListeners() {
 }
 
 function searchIcon(value) {
-  var results = _.filter(allIcons, function(icon) {
+  var results = Fliplet.Utils.filter(allIcons, function(icon) {
     var found = false;
     
     if (icon.filter) {
